@@ -1,5 +1,6 @@
 'use strict';
 import contactsTemplate from './contact.hbs';
+import './contact.scss';
 
 const refs = {
   main: document.querySelector('#js-main'),

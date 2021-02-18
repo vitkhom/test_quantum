@@ -36,6 +36,7 @@ function makeVisible() {
       const clickedBtnIndex = [...buttonArr].indexOf(e.target);
 
       textList[clickedBtnIndex].classList.toggle('invisible');
+      buttonList[clickedBtnIndex].classList.toggle('closeMore');
     });
   });
 }

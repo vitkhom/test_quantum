@@ -1,12 +1,28 @@
 .questions {
+  &__title {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 260px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
   &__list {
     margin: 0 auto;
+    margin-top: 40px;
     width: 280px;
 
     &-item {
       width: 280px;
+      margin-bottom: 16px;
       border: 2px solid #4f62f6;
       border-radius: 15px;
+      padding: 24px 16px;
 
       .list-item__short {
         margin: 0 auto;
@@ -16,23 +32,116 @@
 
         .list-item__title {
           width: 189px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
         }
 
         .item__close-button {
+          margin: auto 0;
+          display: block;
           background-color: #ffffff;
           outline: none;
           border: none;
+          width: 18px;
+          height: 18px;
+          background-color: transparent;
+          background-image: url('./img/button.jpg');
+          background-size: 100%;
+          cursor: pointer;
+        }
+
+        .closeMore {
+          width: 24px;
+          height: 24px;
+          background-image: url('./img/close.jpg');
         }
       }
 
       .list-item__descr {
+        padding-top: 24px;
         width: 240px;
         margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
       }
     }
   }
 
   .invisible {
     display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .questions {
+    margin: 0 auto;
+    width: 688px;
+
+    &__title {
+      margin-left: 0;
+      width: 509px;
+      font-size: 56px;
+      line-height: 66px;
+    }
+
+    &__list {
+      margin-top: 56px;
+      width: 688px;
+
+      &-item {
+        width: 688px;
+      }
+    }
+
+    .list-item__short {
+      width: 608px;
+
+      .list-item__title {
+        width: 469px;
+        font-size: 24px;
+        line-height: 29px;
+      }
+    }
+
+    .list-item__descr {
+      width: 608px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .questions {
+    margin: 0 auto;
+    width: 1200px;
+
+    &__title {
+      width: 483px;
+    }
+
+    &__list {
+      margin-top: 60px;
+      width: 995px;
+
+      &-item {
+        width: 995px;
+      }
+    }
+
+    .list-item__short {
+      width: 915px;
+
+      .list-item__title {
+        width: 750px;
+      }
+    }
+
+    .list-item__descr {
+      width: 915px;
+    }
   }
 }
