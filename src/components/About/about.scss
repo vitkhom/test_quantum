@@ -1,0 +1,70 @@
+.about {
+  margin: 0 auto;
+
+  &__container {
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  &__title {
+    width: 280px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__list {
+    &-item {
+      width: 280px;
+      height: 445px;
+    }
+  }
+
+  &__buttons-wraper {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+
+    .swiper-button-prev {
+      background-image: url('./img/back_btn.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto;
+      cursor: pointer;
+    }
+
+    .swiper-button-next {
+      background-image: url('./img/forward_btn.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto;
+      cursor: pointer;
+    }
+
+    .numbers {
+      display: block;
+      width: 50px;
+      height: 18px;
+    }
+  }
+
+  &__button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 50%;
+    outline: none;
+  }
+}
+
+.swiper-container {
+  width: 280px;
+  height: 500px;
+}

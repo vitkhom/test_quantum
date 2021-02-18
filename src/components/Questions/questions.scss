@@ -1,0 +1,38 @@
+.questions {
+  &__list {
+    margin: 0 auto;
+    width: 280px;
+
+    &-item {
+      width: 280px;
+      border: 2px solid #4f62f6;
+      border-radius: 15px;
+
+      .list-item__short {
+        margin: 0 auto;
+        width: 242px;
+        display: flex;
+        justify-content: space-between;
+
+        .list-item__title {
+          width: 189px;
+        }
+
+        .item__close-button {
+          background-color: #ffffff;
+          outline: none;
+          border: none;
+        }
+      }
+
+      .list-item__descr {
+        width: 240px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .invisible {
+    display: none;
+  }
+}

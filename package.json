@@ -49,7 +49,10 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "core-js": "^3.6.5",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.4.10"
   }
 }
