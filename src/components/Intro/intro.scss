@@ -1,0 +1,139 @@
+.intro {
+  background-color: rgba(79, 98, 246, 0.102);
+  margin: 0 auto;
+
+  &__container {
+    margin: 0 auto;
+    padding-bottom: 18px;
+    width: 280px;
+  }
+
+  &__title {
+    width: 280px;
+    padding-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__text {
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__button {
+    display: block;
+    margin-top: 32px;
+    height: 54px;
+    width: 280px;
+    border-radius: 60px;
+    background: #6248ff;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  &__img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 32px;
+    width: 280px;
+    height: 301px;
+    background-image: url('./img/blocks3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    &__container {
+      margin: 0 auto;
+      padding-bottom: 24px;
+      width: 688px;
+    }
+
+    &__title {
+      width: 688px;
+      padding-top: 40px;
+      font-size: 64px;
+      line-height: 72px;
+      text-align: center;
+    }
+
+    &__text {
+      margin: 0 auto;
+      width: 500px;
+      margin-top: 32px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+
+    &__button {
+      margin: 0 auto;
+      margin-top: 48px;
+      width: 257px;
+    }
+
+    &__img {
+      margin-top: 32px;
+      width: 418px;
+      height: 450px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro {
+    &__container {
+      margin: 0 auto;
+      padding-bottom: 40px;
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__title {
+      width: 585px;
+      padding-top: 139px;
+      text-align: left;
+    }
+
+    &__text {
+      margin: 0;
+      width: 483px;
+      text-align: left;
+    }
+
+    &__button {
+      margin-left: 0;
+      margin-top: 48px;
+    }
+
+    &__img {
+      margin-top: 100px;
+      width: 482px;
+      height: 510px;
+      margin-bottom: 101px;
+    }
+  }
+}

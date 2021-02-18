@@ -1,0 +1,118 @@
+.contacts {
+  margin: 0 auto;
+  background-color: #6248ff14;
+
+  &__container {
+    margin: 0 auto;
+    width: 280px;
+    padding-bottom: 48px;
+
+    .contacts__title {
+      margin-top: 70px;
+      padding-top: 48px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+
+    .contacts__text,
+    .contacts__info {
+      display: block;
+      margin-top: 24px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    .contacts__phone-title,
+    .contacts__email-title,
+    .contacts__address-title {
+      margin-top: 17px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 16px;
+      color: #333333;
+    }
+
+    .contacts__phone,
+    .contacts__email,
+    .contacts__address-wrapper {
+      display: block;
+      margin-top: 8px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 27px;
+      color: #4f4f4f;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    &__container {
+      width: 508px;
+
+      .contacts__title {
+        margin: 0 auto;
+        margin-top: 80px;
+        font-size: 56px;
+        line-height: 66px;
+      }
+
+      .contacts__text,
+      .contacts__info {
+        margin-top: 32px;
+      }
+
+      .contacts__phone,
+      .contacts__email,
+      .contacts__address-wrapper {
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .contacts {
+    &__container {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: 100px;
+
+      .contacts__wrapper {
+        width: 580px;
+      }
+
+      .contacts__title {
+        margin-top: 0;
+        padding-top: 0;
+      }
+
+      .contacts__text,
+      .contacts__info {
+        margin-top: 40px;
+      }
+
+      .contacts__phone,
+      .contacts__email,
+      .contacts__address-wrapper {
+        margin-top: 16px;
+      }
+    }
+  }
+}
